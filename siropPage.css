@@ -1,0 +1,7 @@
+.card-container-sirop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px;
+    width: fit-content; /* Ajuste la largeur selon les cartes */
+    margin: 50px auto;/*entre leconteneur */
+}

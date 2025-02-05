@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    overflow-x: auto; /* Permet le défilement horizontal */
+    gap: 16px; /* Espace entre les éléments */
+    padding: 10px;
+    scroll-snap-type: x mandatory; /* Pour un défilement fluide */
+  }
+  
+  .card-container::-webkit-scrollbar {
+    display: none; /* Cache la barre de défilement */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Empêche les cartes de s'étirer */
+    scroll-snap-align: start; /* Aligne chaque carte au début */
+    width: 200px; /* Largeur des cartes */
+  }
+  

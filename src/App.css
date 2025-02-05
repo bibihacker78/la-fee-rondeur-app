@@ -1,0 +1,10 @@
+/* Styles du conteneur de cartes */
+.card-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10px, 1fr) ); /* Grille responsive */
+  gap: 5px; 
+  justify-items: center; 
+  padding: 20px; 
+}
+
