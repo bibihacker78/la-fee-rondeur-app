@@ -1,6 +1,6 @@
 /* Styles du conteneur de cartes */
 .card-container {
-  height: 100vh;
+  height: 1200px;
   display: grid;
   grid-template-columns: repeat(3, minmax(10px, 1fr) ); /* Grille responsive */
   gap: 5px; 
