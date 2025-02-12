@@ -13,6 +13,7 @@ import Section from "./components/Section";
 import Conseil from "./pages/Conseil";
 import SiropPage from "./pages/SiropPage";
 import Apropos from "./pages/Apropos";
+import ArticlePage from "./pages/ArticlePage";
 
 function creatCard(item) {
   return (
@@ -66,6 +67,8 @@ function App() {
         <Route path="/conseil" element={<Conseil />} />
         <Route path="/sirop" element={<SiropPage />} />
         <Route path="/apropos" element={<Apropos/>} />
+        <Route path="/article/:id" element={<ArticlePage />} />
+        
 
 
 
